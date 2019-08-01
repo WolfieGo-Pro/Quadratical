@@ -36,22 +36,22 @@ Equation::Equation(double Qterm, double Lterm, double Cterm) {
 
 		if (i + dividend == Lterm) {
 
-			x1 = i , x2 = dividend;
+			x1 = -i , x2 = -dividend;
 			break;
 		}
 		else if (i - dividend == Lterm) {
 
-			x1 = i , x2 = -dividend;
+			x1 = -i , x2 = dividend;
 			break;
 		}
 		else if (-i + dividend == Lterm) {
 
-			x1 = -i , x2 = dividend;
+			x1 = i , x2 = -dividend;
 			break;
 		}
 		else if (-i - dividend == Lterm) {
 
-			x1 = -i , x2 = -dividend;
+			x1 = i , x2 = dividend;
 			break;
 		}
 		else if (i > 1000) {
