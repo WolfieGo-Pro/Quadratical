@@ -23,4 +23,16 @@ The program has 4 files.
 While implementing the mathematical method to solve the quadratic equations, I refrained from using the 'almighty formula'.
 Instead, I decided to try a different method. 
 
-Every quadratic equation consists of a quadratic term
+Every quadratic equation consists of a quadratic term (Qterm), linear term (Lterm) and a constant term (Cterm) such that,
+
+ax<sup>2</sup> + bx + c = 0
+
+ax<sup>2</sup> = Qterm,  bx = Lterm  and c = Cterm.
+
+This method utilized in the program involves:
+
+multiplying Qterm with Cterm (Qterm x Cterm)
+
+finding factors of (Qterm x Cterm) so that when added or subtracted, gives the exact value of Lterm and when multiplied, gives the exact value of (Qterm x Cterm)
+
+And finally, reversing the signs of the factors found, such that (-3) will be 3. Beacuse x - 3 = 0, x = 3.
