@@ -1,0 +1,14 @@
+This project was built to practise allocating memory to objects using the 'new' operator, 
+and also to practise returning pointers from functions/methods.
+However, other aspects of programming has been incorporated into this project which
+will be updated upon from time to time.
+
+Aspects such as:
+
+Modern methods of programming, input validation, efficient memory management techniques etc.
+
+At the moment, the program is efficient & works, which is goal for this version.
+Future versions will implement other aspects listed above as well as improve existing code.
+
+Please see: https://docs.microsoft.com/en-us/cpp/error-messages/compiler-warnings/compiler-warning-level-4-c4702?view=vs-2019
+for the only warning message you may receive when executing this version of code. 
